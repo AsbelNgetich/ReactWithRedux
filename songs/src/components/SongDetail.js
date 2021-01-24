@@ -9,7 +9,8 @@ const SongDetail = ({ song }) => {
     <div>
       <h3>Details for: </h3>
       <p>
-        Title: {song.title} <br />
+        Title: {song.title}
+        <br />
         Duration: {song.duration}
       </p>
     </div>
